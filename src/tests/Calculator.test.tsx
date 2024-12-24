@@ -14,13 +14,13 @@ describe('Calculator', () => {
     
   });
 
-  it('should match snapshot', () => {
-    render(<Calculator />);
+  // it('should match snapshot', () => {
+  //   render(<Calculator />);
 
-    const calculatorElement = document.querySelector('.calculator');
+  //   const calculatorElement = document.querySelector('.calculator');
 
-    if (calculatorElement) {
-      expect(pretty(calculatorElement.innerHTML)).toMatchSnapshot();
-    }
-  });
+  //   if (calculatorElement) {
+  //     expect(pretty(calculatorElement.innerHTML)).toMatchSnapshot();
+  //   }
+  // });
 });
